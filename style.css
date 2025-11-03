@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    width: full;
+    height: 100vh;
+    gap: 20px;
+    background-color: rgb(104, 219, 104);
+}
+
+.hero-fruit-image{
+    width: 70%;
+    height: 70%;
+}
+
+.header-child{
+    padding: 5px 10px 5px 10px;
+    width: 50%;
+    height: full;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
