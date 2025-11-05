@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: "Caveat Brush", cursive;
 }
 
 .header{
@@ -7,19 +8,58 @@
     width: full;
     height: 100vh;
     gap: 20px;
-    background-color: rgb(104, 219, 104);
+    background-color: #C5E1A5;
 }
 
 .hero-fruit-image{
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
 }
 
 .header-child{
     padding: 5px 10px 5px 10px;
     width: 50%;
-    height: full;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header-text{
+    color: #1B4332;
+    width: 60%;
+}
+
+.header-text h1{
+    font-size: 35px;
+    display: inline-block;
+}
+
+.header-text h2{
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.header-cta{
+    width: 60%;
+}
+
+.header-cta-button{
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+    background-color: #40916C;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.header-cta-button:active{
+    transform: scale(0.9);
 }
