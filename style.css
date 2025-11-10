@@ -18,18 +18,28 @@
 .navbar-child{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    color: #1B4332;
+}
+
+.navbar-link{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
     font-size: 20px;
     font-weight: 500;
-    color: #1B4332;
+}
+
+.navbar-button{
+    font-size: 25px;
+    display: inline-block;
 }
 
 .icon{
     font-weight: 600;
     font-size: 30px;
-    position: absolute;
 }
 
 .header{
