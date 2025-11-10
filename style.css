@@ -3,17 +3,26 @@
     font-family: "Caveat Brush", cursive;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     width: 100%;
     height: 80px;
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: #D8F3DC;
     padding: 10px 20px 10px 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 999;
 }
+
+
 
 .navbar-child{
     display: flex;
@@ -106,8 +115,14 @@
     transition: 0.3s;
     cursor: pointer;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .header-cta-button:active{
     transform: scale(0.9);
+}
+
+.products{
+    height: 100vh;
+    background: #1B4332;
 }
