@@ -13,29 +13,26 @@ html{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #D8F3DC;
-    padding: 10px 20px 10px 20px;
+    background-color: #c9e6a0;
+    padding: 0px 20px 0px 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    color: #1B4332;
     z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-
-
-.navbar-child{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    color: #1B4332;
+.navbar > div{
+    flex: 1;
 }
 
 .navbar-link{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 20px;
     font-size: 20px;
     font-weight: 500;
@@ -49,6 +46,20 @@ html{
 .icon{
     font-weight: 600;
     font-size: 30px;
+}
+
+.buy-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buy-button{
+    font-weight: 500;
+    font-size: 20px;
+    color: #C5E1A5;
+    background-color: #1B4332;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
 }
 
 .header{
